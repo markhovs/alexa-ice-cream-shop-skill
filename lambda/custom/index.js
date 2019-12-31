@@ -223,7 +223,7 @@ const PriceHandler = {
     }
 
     const menuItem = randomArrayElement(getItemsByPrice(price));
-
+    
     const speechOutput = `${menuItem.description}`;
 
     return responseBuilder
@@ -430,7 +430,7 @@ const data = {
       size: 'regular and foot long',
       item: 'hot',
       description: 'Made from chicken and beef and topped with chili sauce. Onions are optional.'
-    },
+    }
   ],
   prices: [
     {
@@ -448,7 +448,7 @@ const data = {
     {
       name: 'The Special Dollar Menu',
       description:
-        'On the special Three Dollar Menu is, Large Avalanche, Shreaded Chicken Sandwich and a Medium Soda.',
+        'On the special Three Dollar Menu is, Large Avalanche, Shreaded Chicken Sandwich and an Extra Large Soda.',
       price: '3'
     },
     {
